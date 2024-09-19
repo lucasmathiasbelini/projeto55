@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="projeto55.MainPage"
-             BackgroundColor="#004AAD">
+             BackgroundColor="#2a475e">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -32,16 +32,18 @@
         <!-- Pergunta -->
         <Label x:Name="labelpergunta"
                BackgroundColor="White"
+               Margin="20,0,40,20"
                Text="Sua pergunta aqui"
                TextColor="Black"
-               FontSize="14"
+               FontSize="27"
                Grid.Row="1"
                Grid.Column="0"
                Grid.ColumnSpan="3" />
 
         <!-- Botões de resposta -->
         <Button x:Name="Button1"
-                BackgroundColor="Blue"
+                WidthRequest="150"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 1"
                 Grid.Row="2"
@@ -49,7 +51,8 @@
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button2"
-                BackgroundColor="Blue"
+                WidthRequest="150"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 2"
                 Grid.Row="3"
@@ -57,7 +60,8 @@
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button3"
-                BackgroundColor="Blue"
+                WidthRequest="150"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 3"
                 Grid.Row="4"
@@ -65,7 +69,8 @@
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button4"
-                BackgroundColor="Blue"
+                WidthRequest="150"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 4"
                 Grid.Row="5"
@@ -73,7 +78,8 @@
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button5"
-                BackgroundColor="Blue"
+                WidthRequest="150"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 5"
                 Grid.Row="6"
@@ -82,21 +88,30 @@
 
         <!-- Botões de ajuda -->
         <Button x:Name="ButtonCartas"
-                BackgroundColor="Blue"
+                WidthRequest="200"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Cartas"
+                BorderColor="#D4D6D5"
+                BorderWidth="2"
                 Grid.Row="7"
                 Grid.Column="0" />
 
         <Button x:Name="ButtonUniversitários"
-                BackgroundColor="Blue"
+                BorderColor="#D4D6D5"
+                BorderWidth="2"
+                WidthRequest="200"       
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Universitários"
                 Grid.Row="7"
                 Grid.Column="1" />
 
         <Button x:Name="ButtonTiraum"
-                BackgroundColor="Blue"
+                BorderColor="#D4D6D5"
+                BorderWidth="2"
+                WidthRequest="200"
+                BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Tira Um"
                 Grid.Row="7"

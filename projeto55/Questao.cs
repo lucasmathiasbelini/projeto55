@@ -35,7 +35,6 @@ namespace projeto55
         public void Desenhar()
         {
             // Atribuindo os textos corretos aos componentes da UI
-            Labelpergunta.Text = Pergunta;
             ButtonResposta1.Text = Resposta1;
             ButtonResposta2.Text = Resposta2;
             ButtonResposta3.Text = Resposta3;
