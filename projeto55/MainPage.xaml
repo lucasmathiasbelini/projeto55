@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="projeto55.MainPage"
+             Shell.NavBarIsVisible="False"
              BackgroundColor="#2a475e">
 
     <Grid>
@@ -23,7 +24,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Imagem -->
-        <Image Source="miliao.png"
+        <Image Source="silvioo.png"
                HeightRequest="200"
                Grid.Row="0"
                Grid.Column="0"
@@ -32,7 +33,7 @@
         <!-- Pergunta -->
         <Label x:Name="labelpergunta"
                BackgroundColor="White"
-               Margin="20,0,40,20"
+               Margin="20,0,20,20"
                Text="Sua pergunta aqui"
                TextColor="Black"
                FontSize="27"
@@ -42,46 +43,51 @@
 
         <!-- Botões de resposta -->
         <Button x:Name="Button1"
-                WidthRequest="150"
+                WidthRequest="600"
                 BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 1"
+                Margin="0,0,0,10"
                 Grid.Row="2"
                 Grid.Column="0"
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button2"
-                WidthRequest="150"
+                WidthRequest="600"
                 BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 2"
+                Margin="0,0,0,10"
                 Grid.Row="3"
                 Grid.Column="0"
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button3"
-                WidthRequest="150"
+                WidthRequest="600"
                 BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 3"
+                Margin="0,0,0,10"
                 Grid.Row="4"
                 Grid.Column="0"
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button4"
-                WidthRequest="150"
+                WidthRequest="600"
                 BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 4"
+                Margin="0,0,0,10"
                 Grid.Row="5"
                 Grid.Column="0"
                 Grid.ColumnSpan="3" />
 
         <Button x:Name="Button5"
-                WidthRequest="150"
+                WidthRequest="600"
                 BackgroundColor="#66c0f4"
                 FontSize="12"
                 Text="Opção 5"
+                Margin="0,0,0,10"
                 Grid.Row="6"
                 Grid.Column="0"
                 Grid.ColumnSpan="3" />
