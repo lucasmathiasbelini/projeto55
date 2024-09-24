@@ -40,7 +40,7 @@ namespace projeto55
         q3.Resposta4 = "Biblioteca";
         q3.Resposta5 = "IDE";
 
-        q3.RespostaCerta = 2;
+        q3.RespostaCerta = 1;
         q3.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q3);
 
@@ -57,14 +57,14 @@ namespace projeto55
         listaQuestoes.Add(q4);
 
         var q5 = new Questao();
-        q5.Pergunta = "Quem escreveu 'Dom Casmurro'?";
+        q5.Pergunta = "Quem foi arthur mamãe falei";
         q5.Resposta1 = "Machado de Assis";
-        q5.Resposta2 = "José de Alencar";
-        q5.Resposta3 = "Jorge Amado";
-        q5.Resposta4 = "Clarice Lispector";
+        q5.Resposta2 = "1 poeta";
+        q5.Resposta3 = "youtuber";
+        q5.Resposta4 = "cara aleatorio";
         q5.Resposta5 = "Graciliano Ramos";
 
-        q5.RespostaCerta = 1;
+        q5.RespostaCerta = 2;
         q5.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q5);
 
@@ -117,74 +117,74 @@ namespace projeto55
         listaQuestoes.Add(q9);
 
         var q10 = new Questao();
-        q10.Pergunta = "Qual é o maior oceano do mundo?";
-        q10.Resposta1 = "Oceano Atlântico";
-        q10.Resposta2 = "Oceano Índico";
-        q10.Resposta3 = "Oceano Pacífico";
-        q10.Resposta4 = "Oceano Ártico";
+        q10.Pergunta = "O que é if e else?";
+        q10.Resposta1 = "se e se não";
+        q10.Resposta2 = "se não e se sim";
+        q10.Resposta3 = "loop laço de repetição";
+        q10.Resposta4 = "while";
         q10.Resposta5 = "Oceano Antártico";
 
-        q10.RespostaCerta = 3;
+        q10.RespostaCerta = 1;
         q10.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q10);
 
         var q11 = new Questao();
-        q11.Pergunta = "Qual é o elemento químico com símbolo O?";
-        q11.Resposta1 = "Oxigênio";
-        q11.Resposta2 = "Ouro";
-        q11.Resposta3 = "Prata";
-        q11.Resposta4 = "Cálcio";
-        q11.Resposta5 = "Nitrogênio";
+        q11.Pergunta = "Qual é o comando usado para criar tabela e banco de dados no SQL?";
+        q11.Resposta1 = "CREATE TABLE CLIENTE()";
+        q11.Resposta2 = "DROP CLIENTE";
+        q11.Resposta3 = "DELETE FROM CLIENTE";
+        q11.Resposta4 = "CREATE VIEW CLIENTE";
+        q11.Resposta5 = "AS CLIENTE";
 
         q11.RespostaCerta = 1;
         q11.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q11);
 
         var q12 = new Questao();
-        q12.Pergunta = "Qual animal é conhecido como o 'rei da selva'?";
-        q12.Resposta1 = "Elefante";
-        q12.Resposta2 = "Tigre";
-        q12.Resposta3 = "Leão";
-        q12.Resposta4 = "Urso";
-        q12.Resposta5 = "Gorila";
+        q12.Pergunta = "O que significa a sgla SGBD";
+        q12.Resposta1 = "Sistema de gerenciamento de dados";
+        q12.Resposta2 = "Sistema de segurança de dados";
+        q12.Resposta3 = "Sistema de gerenciamento e monitoramento";
+        q12.Resposta4 = "Sistema sigilo de dados";
+        q12.Resposta5 = "nenhuma delas";
 
-        q12.RespostaCerta = 3;
+        q12.RespostaCerta = 1;
         q12.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q12);
 
         var q13 = new Questao();
-        q13.Pergunta = "Qual é a moeda do Japão?";
-        q13.Resposta1 = "Yuan";
-        q13.Resposta2 = "Won";
-        q13.Resposta3 = "Yen";
-        q13.Resposta4 = "Dólar";
-        q13.Resposta5 = "Euro";
+        q13.Pergunta = "O que é back-end";
+        q13.Resposta1 = "cara que cuida de baixo dos panos de 1 site";
+        q13.Resposta2 = "cara que cuida da interface do site";
+        q13.Resposta3 = "é o cara que cuida dos dados";
+        q13.Resposta4 = "é o patrão";
+        q13.Resposta5 = "é 1 CLT aí";
 
-        q13.RespostaCerta = 3;
+        q13.RespostaCerta = 1;
         q13.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q13);
 
         var q14 = new Questao();
-        q14.Pergunta = "Qual é o nome do famoso relógio de Londres?";
-        q14.Resposta1 = "Big Ben";
-        q14.Resposta2 = "Tower Bridge";
-        q14.Resposta3 = "London Eye";
-        q14.Resposta4 = "Buckingham Palace";
-        q14.Resposta5 = "Westminster Abbey";
+        q14.Pergunta = "Qual é a 1 linguagem de programação criada";
+        q14.Resposta1 = "Fortran";
+        q14.Resposta2 = "Binario";
+        q14.Resposta3 = "JAVA";
+        q14.Resposta4 = "HTML";
+        q14.Resposta5 = "CSS";
 
         q14.RespostaCerta = 1;
         q14.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q14);
 
         var q15 = new Questao();
-        q15.Pergunta = "Quem é o autor de 'A Moreninha'?";
-        q15.Resposta1 = "Joaquim Manuel de Macedo";
-        q15.Resposta2 = "Machado de Assis";
-        q15.Resposta3 = "José de Alencar";
-        q15.Resposta4 = "Aluísio Azevedo";
-        q15.Resposta5 = "Eça de Queirós";
+        q15.Pergunta = "Quem é o criador do COBOL linguagem de programação'?";
+        q15.Resposta1 = "Lucas Mathias Belini";
+        q15.Resposta2 = "Grace Murray Hopper";
+        q15.Resposta3 = "Anders hejlsberg";
+        q15.Resposta4 = "James Gosling";
+        q15.Resposta5 = "Brendan Eich";
 
-        q15.RespostaCerta = 1;
+        q15.RespostaCerta = 2;
         q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q15);
 
