@@ -81,7 +81,7 @@ namespace projeto55
         else{
             var buttonCorreto = QualButton(RespostaCerta);
             var buttonIncorreto = QualButton(rr);
-            buttonCorreto.BackgroundColor = Colors.Green; //"#a1c9ae";
+            buttonCorreto.ImageSource = "lll.png"; //"#a1c9ae";
             buttonIncorreto.BackgroundColor = Colors.Red; //#e88e8e;
 
             return false;
