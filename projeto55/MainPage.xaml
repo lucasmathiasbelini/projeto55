@@ -25,7 +25,7 @@
 
         <!-- Imagem -->
         <Image Source="banco.png"
-               HeightRequest="100"
+               HeightRequest="102"
                Grid.Row="0"
                Grid.Column="0"
                Grid.ColumnSpan="3" />
@@ -48,6 +48,7 @@
                 Clicked="OnButtonResposta01ButtonClicked"
                 WidthRequest="600"
                 BackgroundColor="#EDD30E"
+                TextColor="#8C8C8C"
                 FontSize="12"
                 Text="Opção 1"
                 Margin="0,0,0,10"
@@ -59,6 +60,7 @@
                  Clicked="OnButtonResposta02ButtonClicked"
                 WidthRequest="600"
                 BackgroundColor="#EDD30E"
+                TextColor="#8C8C8C"
                 FontSize="12"
                 Text="Opção 2"
                 Margin="0,0,0,10"
@@ -70,6 +72,7 @@
                 Clicked="OnButtonResposta03ButtonClicked"
                 WidthRequest="600"
                 BackgroundColor="#EDD30E"
+                TextColor="#8C8C8C"
                 FontSize="12"
                 Text="Opção 3"
                 Margin="0,0,0,10"
@@ -81,6 +84,7 @@
                 Clicked="OnButtonResposta04ButtonClicked"
                 WidthRequest="600"
                 BackgroundColor="#EDD30E"
+                TextColor="#8C8C8C"
                 FontSize="12"
                 Text="Opção 4"
                 Margin="0,0,0,10"
@@ -92,6 +96,7 @@
                 Clicked="OnButtonResposta05ButtonClicked"
                 WidthRequest="600"
                 BackgroundColor="#EDD30E"
+                TextColor="#8C8C8C"
                 FontSize="12"
                 Text="Opção 5"
                 Margin="0,0,0,10"
@@ -105,7 +110,7 @@
                 WidthRequest="200"
                 BackgroundColor="Blue"
                 FontSize="12"
-                Text="Cartas"
+                Text="Arregar obs(Burro KKKJ)"
                 BorderColor="#D4D6D5"
                 BorderWidth="2"
                 Grid.Row="7"
@@ -118,7 +123,7 @@
                 WidthRequest="200"       
                 BackgroundColor="Blue"
                 FontSize="12"
-                Text="Universitários"
+                Text="Arregar e ir embora"
                 Grid.Row="7"
                 Grid.Column="1" />
 

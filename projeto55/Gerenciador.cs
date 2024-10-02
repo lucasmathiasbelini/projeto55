@@ -196,6 +196,70 @@ namespace projeto55
         q16.Resposta4 = "Saturno";
         q16.Resposta5 = "Mercúrio";
 
+         q16.RespostaCerta = 2;
+        q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q16);
+
+         var q17 = new Questao();
+        q15.Pergunta = "Qual linguagem de programação é menos utilizada no mundo?";
+        q15.Resposta1 = "COBOL";
+        q15.Resposta2 = "PHP";
+        q15.Resposta3 = "Java script";
+        q15.Resposta4 = "lua";
+        q15.Resposta5 = "swelt";
+
+        q15.RespostaCerta = 1;
+        q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q17);
+
+         var q18 = new Questao();
+        q15.Pergunta = "Qual a linguagem de programação é orientada a objetos?";
+        q15.Resposta1 = "HTML";
+        q15.Resposta2 = "JAVA";
+        q15.Resposta3 = "CSS";
+        q15.Resposta4 = "SQL";
+        q15.Resposta5 = "Brainfuck";
+
+        q15.RespostaCerta = 2;
+        q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q18);
+
+         var q19 = new Questao();
+        q15.Pergunta = "Qual o significado de SQL?";
+        q15.Resposta1 = "Structured Query Language";
+        q15.Resposta2 = "Sequential Query Language";
+        q15.Resposta3 = "Standard Query Language";
+        q15.Resposta4 = "nenhuma desses";
+        q15.Resposta5 = "patrão agora complicou";
+
+        q15.RespostaCerta = 1;
+        q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q19);
+
+         var q20 = new Questao();
+        q15.Pergunta = "Qual é o operador de igualdade em Java?";
+        q15.Resposta1 = "=";
+        q15.Resposta2 = "==";
+        q15.Resposta3 = "===";
+        q15.Resposta4 = "!=";
+        q15.Resposta5 = "?=";
+
+        q15.RespostaCerta = 2;
+        q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q20);
+
+         var q21 = new Questao();
+        q15.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
+        q15.Resposta1 = "Array";
+        q15.Resposta2 = "HashMap";
+        q15.Resposta3 = "Set";
+        q15.Resposta4 = "Queue";
+        q15.Resposta5 = "nenhuma dessas";
+
+        q15.RespostaCerta = 2;
+        q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q21);
+
     }
        public void ProximaQuestao()
 {
