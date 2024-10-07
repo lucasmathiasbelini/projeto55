@@ -1,4 +1,6 @@
-﻿namespace projeto55
+﻿using System.Runtime.CompilerServices;
+
+namespace projeto55
 {
     public partial class MainPage : ContentPage
     {

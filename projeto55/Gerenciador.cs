@@ -242,7 +242,7 @@ namespace projeto55
         q20.Resposta2 = "==";
         q20.Resposta3 = "===";
         q20.Resposta4 = "!=";
-        q20.Resposta5 = "?="
+        q20.Resposta5 = "?=";
         q15.RespostaCerta = 2;
         q15.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q20);
@@ -257,7 +257,7 @@ namespace projeto55
 
         q21.RespostaCerta = 2;
         q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
-        listaQuestoes.Add(q22);
+        listaQuestoes.Add(q21);
 
            var q22 = new Questao();
         q22.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
@@ -395,7 +395,7 @@ namespace projeto55
         q33.Resposta2 = "HashMap";
         q33.Resposta3 = "Set";
         q33.Resposta4 = "Queue";
-        q33.Resposta5 = "nenhuma dessas"33
+        q33.Resposta5 = "nenhuma dessas";
         q33.RespostaCerta = 2;
         q33.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q33);
@@ -418,7 +418,7 @@ namespace projeto55
         q35.Resposta2 = "HashMap";
         q35.Resposta3 = "Set";
         q35.Resposta4 = "Queue";
-        q35.Resposta5 = "nenhuma dessas"36
+        q35.Resposta5 = "nenhuma dessas";
         q35.RespostaCerta = 2;
         q35.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q35);
@@ -471,65 +471,64 @@ namespace projeto55
         q39.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q39);
 
-   var q21 = new Questao();
-        q21.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
-        q21.Resposta1 = "Array";
-        q21.Resposta2 = "HashMap";
-        q21.Resposta3 = "Set";
-        q21.Resposta4 = "Queue";
-        q21.Resposta5 = "nenhuma dessas";
+   var q40 = new Questao();
+        q40.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
+        q40.Resposta1 = "Array";
+        q40.Resposta2 = "HashMap";
+        q40.Resposta3 = "Set";
+        q40.Resposta4 = "Queue";
+        q40.Resposta5 = "nenhuma dessas";
 
-        q21.RespostaCerta = 2;
+        q40.RespostaCerta = 2;
+        q40.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q40);
+
+   var q41 = new Questao();
+        q41.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
+        q41.Resposta1 = "Array";
+        q41.Resposta2 = "HashMap";
+        q41.Resposta3 = "Set";
+        q41.Resposta4 = "Queue";
+        q41.Resposta5 = "nenhuma dessas";
+        q41.RespostaCerta = 2;
         q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
-        listaQuestoes.Add(q21);
+        listaQuestoes.Add(q41);
 
-   var q21 = new Questao();
-        q21.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
-        q21.Resposta1 = "Array";
-        q21.Resposta2 = "HashMap";
-        q21.Resposta3 = "Set";
-        q21.Resposta4 = "Queue";
-        q21.Resposta5 = "nenhuma dessas";
+   var q42 = new Questao();
+        q42.Pergunta = "qual personagem do lol que usa 2 adagas";
+        q42.Resposta1 = "corki";
+        q42.Resposta2 = "orianna";
+        q42.Resposta3 = "katarina";
+        q42.Resposta4 = "aatrox";
+        q42.Resposta5 = "nenhuma dessas";
 
-        q21.RespostaCerta = 2;
-        q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
-        listaQuestoes.Add(q21);
+        q42.RespostaCerta = 3;
+        q42.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q42);
 
-   var q21 = new Questao();
-        q21.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
-        q21.Resposta1 = "Array";
-        q21.Resposta2 = "HashMap";
-        q21.Resposta3 = "Set";
-        q21.Resposta4 = "Queue";
-        q21.Resposta5 = "nenhuma dessas";
+   var q43 = new Questao();
+        q43.Pergunta = "Qual é o jogo mais jogado atualmente?";
+        q43.Resposta1 = "minecraft";
+        q43.Resposta2 = "league of leagends";
+        q43.Resposta3 = "overwatch";
+        q43.Resposta4 = "dota";
+        q43.Resposta5 = "nenhuma dessas";
 
-        q21.RespostaCerta = 2;
-        q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
-        listaQuestoes.Add(q21);
+        q43.RespostaCerta = 1;
+        q43.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q43);
 
-   var q21 = new Questao();
-        q21.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
-        q21.Resposta1 = "Array";
-        q21.Resposta2 = "HashMap";
-        q21.Resposta3 = "Set";
-        q21.Resposta4 = "Queue";
-        q21.Resposta5 = "nenhuma dessas";
+   var q44 = new Questao();
+        q44.Pergunta = "Qual campeao do lol usa katana que solta tornado?";
+        q44.Resposta1 = "varus";
+        q44.Resposta2 = "sett";
+        q44.Resposta3 = "clarsmente é a catlyn";
+        q44.Resposta4 = "yasuo";
+        q44.Resposta5 = "nenhuma dessas";
 
-        q21.RespostaCerta = 2;
-        q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
-        listaQuestoes.Add(q21);
-
-   var q21 = new Questao();
-        q21.Pergunta = "Qual estrutura de dados é usada para armazenar um coleção de elementos de forma ordenada?";
-        q21.Resposta1 = "Array";
-        q21.Resposta2 = "HashMap";
-        q21.Resposta3 = "Set";
-        q21.Resposta4 = "Queue";
-        q21.Resposta5 = "nenhuma dessas";
-
-        q21.RespostaCerta = 2;
-        q21.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
-        listaQuestoes.Add(q21);
+        q44.RespostaCerta = 4;
+        q44.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
+        listaQuestoes.Add(q44);
 
 
 

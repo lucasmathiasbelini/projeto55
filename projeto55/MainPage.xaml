@@ -43,6 +43,18 @@
                Grid.Column="0"
                Grid.ColumnSpan="3" />
 
+         <Label x:Name="labelChoraFazoL"
+               BackgroundColor="blue"
+               HorizontalTextAlignment="Center"
+               Margin="20,0,12,20"
+               Text="Pontuação"
+               TextColor="white"
+               WidthRequest="139"
+               FontSize="27"
+               Grid.Row="1"
+               Grid.Column="2"
+               Grid.ColumnSpan="3" />
+
         <!-- Botões de resposta -->
         <Button x:Name="Button1"
                 Clicked="OnButtonResposta01ButtonClicked"
@@ -123,7 +135,7 @@
                 WidthRequest="200"       
                 BackgroundColor="Blue"
                 FontSize="12"
-                Text="Arregar e ir embora"
+                Text="universitarios"
                 Grid.Row="7"
                 Grid.Column="1" />
 
