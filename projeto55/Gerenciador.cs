@@ -5,10 +5,40 @@ namespace projeto55
 
     List<Questao> listaQuestoes = new List<Questao>();
     List<int> listaQuestaoRespondida = new List<int>();
-    Questao questaoAtual;
+     public int Pontuacao { get; private set; }
+    Questao QuestaoAtual;
     public Gerenciador(Label labelPergunta, Button buttonResposta01, Button buttonResposta02, Button buttonResposta03, Button buttonResposta04, Button buttonResposta05){
         CriarQuestoes(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
     }
+    
+        void AdicionaPontuacao(int n)
+        {
+            if (n == 1)
+                Pontuacao = 1000;
+            else if (n == 2)
+                Pontuacao = 2000;
+            else if (n == 3)
+                Pontuacao = 5000;
+            else if (n == 4)
+                Pontuacao = 10000;
+            else if (n == 5)
+                Pontuacao = 20000;
+            else if (n == 6)
+                Pontuacao = 50000;
+            else if (n == 7)
+                Pontuacao = 10000;
+            else if (n == 8)
+                Pontuacao = 20000;
+            else if (n == 9)
+                Pontuacao = 500000;
+            else if (n == 10)
+                Pontuacao = 1000000;
+        }
+        public Questao GetQuestaoAtual()
+        {
+            return QuestaoAtual;
+        }
+        
 
     void CriarQuestoes(Label labelPergunta, Button buttonResposta01, Button buttonResposta02, Button buttonResposta03, Button buttonResposta04, Button buttonResposta05){
         var q1 = new Questao();
@@ -543,13 +573,13 @@ namespace projeto55
     }
 
     listaQuestaoRespondida.Add(numRandom);
-    questaoAtual = listaQuestoes[numRandom];
-    questaoAtual.Desenhar();
+    QuestaoAtual = listaQuestoes[numRandom];
+    QuestaoAtual.Desenhar();
 }
 
 public async void VerificaCorreta(int RespostaSelecionada)
 {
-    if (questaoAtual.VerificaResposta(RespostaSelecionada))
+    if (QuestaoAtual.VerificaResposta(RespostaSelecionada))
     {
         await Task.Delay(90);
         ProximaQuestao();

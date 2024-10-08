@@ -148,6 +148,18 @@
                 FontSize="12"
                 Text="Tira Um"
                 Grid.Row="7"
-                Grid.Column="2" />
+                Grid.Column="10" />
+
+         <Button x:Name="kkk"
+                Clicked="OnAjudaPulaClicked"
+                BorderColor="#D4D6D5"
+                BorderWidth="0"
+                HeightRequest="10"
+                WidthRequest="200"
+                BackgroundColor="Blue"
+                FontSize="12"
+                Text="Pular"
+                Grid.Row="8"
+                Grid.Column="9" />
     </Grid>
 </ContentPage>

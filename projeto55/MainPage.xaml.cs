@@ -33,5 +33,42 @@ namespace projeto55
         {
             gerenciador.VerificaCorreta(5); // Correção aqui
         }
-    }
+        private void ButtonVoltarButtonClicked(object sender, EventArgs args)
+	{
+
+		Application.Current.MainPage = new MainPage();
+
+	}
+    
+    int pulou = 0;
+	async void OnAjudaPulaClicked(object s, EventArgs E)
+	{
+		if (await DisplayAlert("PULAR QUESTÃO!", "Deseja mesmo pular a questão, depois não será possível usar esse recurso", "PULAR QUESTÃO", "CANCELAR"))
+		{
+			if (pulou == 2)
+			{
+				(s as Button).IsVisible = false;
+			}
+
+			else if (pulou == 0)
+			{
+				gerenciador.ProximaQuestao();
+				pulou++;
+				(s as Button).Text = "Pular " + 2.ToString();
+			}
+				else if (pulou == 1)
+			{
+				gerenciador.ProximaQuestao();
+				pulou++;
+				(s as Button).Text = "Pular " + 3.ToString();
+
+			}
+	
 }
+    }
+    }
+    }
+
+
+    
+
